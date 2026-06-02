@@ -1,0 +1,5 @@
+cpu 8086
+cpu 186
+ 
+org 0x98F0D
+ jmp 0xB000:0x5510

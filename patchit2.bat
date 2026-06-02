@@ -1,0 +1,1 @@
+python patch_binary.py r2-prg.rom patchlist2.txt -o r2-prg-mod.rom

@@ -1,0 +1,143 @@
+<!--by alamone-->
+<mamecheat version="1">
+
+  <cheat desc="Enable Debug Mode">
+    <comment>
+      Enable Debug Mode (Press 2P Start twice while in-game, 1P Start twice to exit)
+    </comment>
+
+    <script state="on">
+      <action>maincpu.rb@98F0D=EA</action>
+      <action>maincpu.rb@98F0E=10</action>
+      <action>maincpu.rb@98F0F=55</action>
+      <action>maincpu.rb@98F10=00</action>
+      <action>maincpu.rb@98F11=B0</action>	  
+      <action>maincpu.rb@9BC04=E9</action>
+      <action>maincpu.rb@9BC05=4D</action>
+      <action>maincpu.rb@9BC06=01</action>
+      <action>maincpu.rb@9BF66=90</action>
+      <action>maincpu.rb@9BF67=90</action>
+      <action>maincpu.rb@9BF68=90</action>
+      <action>maincpu.rb@9BF69=90</action>
+      <action>maincpu.rb@9BF6A=90</action>
+      <action>maincpu.rb@9BF6B=90</action>
+      <action>maincpu.rb@9BF6C=90</action>
+      <action>maincpu.rb@9BF6D=90</action>
+      <action>maincpu.rb@9BF77=CB</action>
+      <action>maincpu.rb@B5510=55</action>
+      <action>maincpu.rb@B5511=89</action>
+      <action>maincpu.rb@B5512=E5</action>
+      <action>maincpu.rb@B5513=83</action>
+      <action>maincpu.rb@B5514=EC</action>
+      <action>maincpu.rb@B5515=08</action>
+      <action>maincpu.rb@B5516=F7</action>
+      <action>maincpu.rb@B5517=06</action>
+      <action>maincpu.rb@B5518=C2</action>
+      <action>maincpu.rb@B5519=9D</action>
+      <action>maincpu.rb@B551A=80</action>
+	  <action>maincpu.rb@B551C=74</action>
+	  <action>maincpu.rb@B551D=1A</action>
+	  <action>maincpu.rb@B551E=C7</action>
+	  <action>maincpu.rb@B551F=06</action>
+	  <action>maincpu.rb@B5520=C0</action>
+	  <action>maincpu.rb@B5521=9D</action>
+	  <action>maincpu.rb@B5524=C7</action>
+	  <action>maincpu.rb@B5525=06</action>
+	  <action>maincpu.rb@B5526=C2</action>
+	  <action>maincpu.rb@B5527=9D</action>
+	  <action>maincpu.rb@B552A=6A</action>
+	  <action>maincpu.rb@B552C=68</action>
+	  <action>maincpu.rb@B552D=26</action>
+	  <action>maincpu.rb@B552E=11</action>
+	  <action>maincpu.rb@B552F=68</action>
+	  <action>maincpu.rb@B5530=83</action>
+	  <action>maincpu.rb@B5531=11</action>
+	  <action>maincpu.rb@B5532=9A</action>
+	  <action>maincpu.rb@B5533=04</action>
+	  <action>maincpu.rb@B5534=3C</action>
+	  <action>maincpu.rb@B5536=98</action>
+	  <action>maincpu.rb@B5537=59</action>
+	  <action>maincpu.rb@B5538=EA</action>
+	  <action>maincpu.rb@B5539=13</action>
+	  <action>maincpu.rb@B553A=0F</action>
+	  <action>maincpu.rb@B553C=98</action>
+    </script>
+    <script state="off">
+      <action>maincpu.rb@98F0D=55</action>
+      <action>maincpu.rb@98F0E=8B</action>
+      <action>maincpu.rb@98F0F=EC</action>
+      <action>maincpu.rb@98F10=83</action>
+      <action>maincpu.rb@98F11=EC</action>
+      <action>maincpu.rb@9BC04=CA</action>
+      <action>maincpu.rb@9BC05=06</action>
+      <action>maincpu.rb@9BC06=00</action>
+      <action>maincpu.rb@9BF66=6A</action>
+      <action>maincpu.rb@9BF67=00</action>
+      <action>maincpu.rb@9BF68=E8</action>
+      <action>maincpu.rb@9BF69=92</action>
+      <action>maincpu.rb@9BF6A=57</action>
+      <action>maincpu.rb@9BF6B=83</action>
+      <action>maincpu.rb@9BF6C=C4</action>
+      <action>maincpu.rb@9BF6D=02</action>
+      <action>maincpu.rb@9BF77=C3</action>
+      <action>maincpu.rb@B5510=00</action>
+      <action>maincpu.rb@B5511=00</action>
+      <action>maincpu.rb@B5512=00</action>
+      <action>maincpu.rb@B5513=00</action>
+      <action>maincpu.rb@B5514=00</action>
+      <action>maincpu.rb@B5515=00</action>
+      <action>maincpu.rb@B5516=00</action>
+      <action>maincpu.rb@B5517=00</action>
+      <action>maincpu.rb@B5518=00</action>
+      <action>maincpu.rb@B5519=00</action>
+      <action>maincpu.rb@B551A=00</action>
+      <action>maincpu.rb@B551C=00</action>
+      <action>maincpu.rb@B551D=00</action>
+      <action>maincpu.rb@B551E=00</action>
+      <action>maincpu.rb@B551F=00</action>
+      <action>maincpu.rb@B5520=00</action>
+      <action>maincpu.rb@B5521=00</action>
+      <action>maincpu.rb@B5524=00</action>
+      <action>maincpu.rb@B5525=00</action>
+      <action>maincpu.rb@B5526=00</action>
+      <action>maincpu.rb@B5527=00</action>
+      <action>maincpu.rb@B552A=00</action>
+      <action>maincpu.rb@B552C=00</action>
+      <action>maincpu.rb@B552D=00</action>
+      <action>maincpu.rb@B552E=00</action>
+      <action>maincpu.rb@B552F=00</action>
+      <action>maincpu.rb@B5530=00</action>
+      <action>maincpu.rb@B5531=00</action>
+      <action>maincpu.rb@B5532=00</action>
+      <action>maincpu.rb@B5533=00</action>
+      <action>maincpu.rb@B5534=00</action>
+      <action>maincpu.rb@B5536=00</action>
+      <action>maincpu.rb@B5537=00</action>
+      <action>maincpu.rb@B5538=00</action>
+      <action>maincpu.rb@B5539=00</action>
+      <action>maincpu.rb@B553A=00</action>
+      <action>maincpu.rb@B553C=00</action>
+    </script>
+  </cheat>
+
+  <cheat desc="Stage Select">
+    <comment>
+      Select the starting stage
+    </comment>
+    <parameter>
+      <item value="0x00">Level 1</item>
+      <item value="0x02">Level 2</item>
+      <item value="0x03">Level 3</item>
+      <item value="0x04">Level 4</item>
+      <item value="0x05">Level 5</item>
+      <item value="0x06">Level 6</item>
+      <item value="0x07">Level 7</item>
+      <item value="0x08">Level 8</item>
+      <item value="0x09">Level 9</item>	  
+    </parameter>
+    <script state="run">
+      <action>maincpu.rb@9AD54=param</action>
+    </script>
+  </cheat>
+  
+</mamecheat>

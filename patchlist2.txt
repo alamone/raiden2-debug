@@ -1,0 +1,5 @@
+98F0D	start-debug-injection.obj
+B5510	newcode-debug.obj
+9BC04	newcode-debug2.obj
+9BF77	newcode-debug3.obj
+9BF66	newcode-debug4.obj
