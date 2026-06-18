@@ -1,3 +1,7 @@
+#DEPRECATED
+DEPRECATED: This tool has been superceded by Raiden II (Japan) - Enhancement Patch
+https://github.com/alamone/raiden2mod
+
 # raiden2-debug
 Raiden II Debug Mode
 
